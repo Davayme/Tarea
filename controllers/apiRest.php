@@ -1,7 +1,7 @@
 <?php
-include_once ('../Model/consulta.php');
-include_once ('../Model/guardar.php');
-include_once ('../Model/delete.php');
+include_once ('../models/consulta.php');
+include_once ('../models/guardar.php');
+include_once ('../models/delete.php');
 
 $opc = $_SERVER["REQUEST_METHOD"];
 switch ($opc) {
